@@ -1,0 +1,128 @@
+      body{
+        background-color: aliceblue;
+      }
+      #face{
+            position: absolute;
+            left:40%;
+        }
+        #main{
+            position:absolute;
+            width:300px;
+            height:300px;
+            border:2px solid black;
+            background-color: pink;
+            border-radius: 45%;
+        }
+        #eye1{
+            position:relative;
+            width:70px;
+            height:90px;
+            border:2px solid black;
+            background-color: white;
+            border-radius:50%;
+            top:96px;
+            left:60px;
+        }
+        #eye2{
+            position:relative;
+            width:70px;
+            height:90px;
+            border:2px solid black;
+            background-color: white;
+            border-radius:50%;
+            left:150px;
+        }
+        #eye1ball{
+            position:relative;
+            width:50px;
+            height:60px;
+            border:2px solid black;
+            background-color: black;
+            border-radius:50%;
+            top:27px;
+            left:11px;
+        }
+        #eye2ball{
+            position:relative;
+            width:50px;
+            height:60px;
+            border:2px solid black;
+            background-color: black;
+            border-radius:50%;
+            top:27px;
+            left:11px;
+        }
+        #nose{
+            position:relative;
+            width:90px;
+            height:90px;
+            border:2px solid black;
+            background-color: red;
+            border-radius:50%;
+            left:103px;
+        }
+        #nostril1{
+            position:relative;
+            width:20px;
+            height:20px;
+            border:2px solid black;
+            background-color: black;
+            border-radius:50%;
+            top:35px;
+            left:20px;
+        }
+        #nostril2{
+            position:relative;
+            width:20px;
+            height:20px;
+            border:2px solid black;
+            background-color: black;
+            border-radius:50%;
+            left:45px; 
+            top:10px;
+        }
+        #ear1{
+            position:relative;
+            width:110px;
+            height:135px;
+            border:2px solid black;
+            background-color: black;
+            background-color: pink;
+            border-radius:50%;
+            left:5px; 
+            top:265px;
+            transform: skew(6deg, 0);
+        }
+        #ear2{
+            position:relative;
+            width:110px;
+            height:135px;
+            border:2px solid black;
+            background-color: pink;
+            border-radius:50%;
+            left:180px; 
+            top:25px;
+            transform: skew(-5deg);
+        }
+        #earr1{
+            position:relative;
+            width:80px;
+            height:90px;
+            border:2px solid black;
+            background-color: black;
+            border-radius:50%;
+            top:166px;
+            left:24px;
+            transform: skew(6deg, 0);
+        }
+        #earr2{
+            position:absolute;
+            width:80px;
+            height:90px;
+            border:2px solid black;
+            background-color: black;
+            border-radius:50%;
+            top:296px;
+            left:190px;
+            transform: skew(-5deg, 0);
+        }
